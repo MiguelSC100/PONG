@@ -41,7 +41,7 @@ function draw() {
     mostraRaquete(xRaqueteOponente, yRaqueteOponente);
     movimentaRaqueteOponente();
     incluiPlacar() 
-    CONTAGEMDEPONTO();
+    CONTAGEMDEPONTOS();
 }
 function mostraBolinha() {
   circle(xBolinha, yBolinha, diametro);
